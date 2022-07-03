@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: "PT Sans", serif;
+    background: #151515;
+    background: linear-gradient(0deg, rgb(18, 15, 21) 0%, rgb(21, 21, 21) 100%);;
+    background-attachment: fixed;
+    color: #ffffff;
+}
+.col, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+a:not(.dropdown-item) {
+    color: #e5e5e5 !important;
+    text-decoration: none !important;
+}
+a:hover:not(.dropdown-item) {
+    color: #ffffff !important;
+    text-decoration: none !important;
+}
+p {
+    margin: 0;
+}
+nav {
+    z-index: 1 !important;
+    box-shadow: 0 1rem 1rem #00000080;
+}
+.sticky-top {
+    top: 0.5em;
+}
+.block-primary {
+    background-color: #232328;
+}
+
+.block-secondary {
+    background-color: rgba(0, 0, 0, 0.15);
+}
+.block-top {
+    /*background: radial-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url(../images/mountain.png);*/
+    background: radial-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url('https://wallpaperaccess.com/full/882671.jpg');
+    background-position: center;
+    background-size: cover;
+    padding-top: 2rem;
+}
+section {
+    /*border: solid .5vw #151515;*/
+    min-height: 90vh;
+    margin: .5vw;
+}
+.section-title {
+    margin: 10px;
+    padding-top: 60px;
+}
+.section-body {
+    padding: 20px 40px;
+}
+.section-card {
+    text-align: left;
+    border-radius: 8px;
+    padding: 10px;
+    width: 10vw;
+}
+.profile-picture {
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.progress-label {
+    margin-top: 50px;
+    margin-bottom: -60px;
+    text-align: center;
+}
+.skill-progress {
+    margin-left: 20px;
+}
+.ci {
+    min-height: 23rem;
+}
+/************************ Scrollbar ************************/
+
+::-webkit-scrollbar {
+    width: .5rem;
+}
+
+::-webkit-scrollbar-track {
+    background: #000000DD;
+    /*border-radius: 1rem;*/
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 1rem;
+    background: #3e3e41;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #4e4e50;
+    /*-webkit-transition: background-color 0.5s ease;*/
+}
